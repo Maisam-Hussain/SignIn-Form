@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Elements and Classes with Same Properties */
+.heading2, .heading4, .inputs{
+    position: relative;
+}
+.container, .name, .email, .btn{
+    border-radius: 5px;
+}
+.container, .btn{
+    color: white;
+}
+
+body{
+    background-image: url("/bg3.jpeg");
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
+.form
+{
+    text-align: center;
+}
+.container{
+    margin: 10px;
+    padding: 0px;
+    width: 330px;
+    height: 400px;
+    background: #33677a;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+.heading2{
+    top: 24px;
+    left: 0px;
+    right: 12px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.heading4{
+    top: 27px;
+    left: 0px;
+    right: 12px;
+    font-size: 14px;
+}
+.inputs
+{
+    top: 58px;
+}
+.name
+{
+    padding: 9px 14px;
+    border: 1px solid white;
+}
+.name:hover{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #132433;
+}
+.email
+{
+    margin: 35px 0px;
+    padding: 9px 14px;
+    border: 1px solid white;
+}
+.email:hover{
+    border: none;
+    background: none;
+    border-bottom: 1px solid #132433;
+}
+.surety
+{
+    font-size: 13px;
+}
+.btn
+{
+    margin: 20px 0px;
+    padding: 9px 44px;
+    border: 1px solid #21130d;
+    background: #132433;
+}
+.btn:hover{
+    background-color: rgba(0,0,0, 0.3);
+    border-color: rgba(0,0,0, 0.3);
+    /* padding: 9px 66px; */
+    transition: 0.5s;
+}
